@@ -97,6 +97,12 @@ extension VideoDownloaderHandler: VideoDownloaderSessionDelegateHandlerDelegate 
     
     func urlSession(_ session: URLSession, dataTask: URLSessionDataTask, didReceive data: Data) {
         guard !isCancelled else { return }
+
+        if startOffset > 1024 * 1024 * 50 {
+            delegate?.handler(self, didReceive: data, isLocal: false)
+            notifyProgress(flush: false)
+            return
+        }
         
         let range = NSRange(location: startOffset, length: data.count)
         if cacheHandler.cache(data: data, for: range)
