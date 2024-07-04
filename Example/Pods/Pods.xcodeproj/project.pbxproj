@@ -7,39 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0183426FE489285A4C9218191309AE43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0286EF34D129B67B46AB389C25812C46 /* Pods-GSPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6459994E6891E6806B17DE99F0D43AE2 /* Pods-GSPlayer_Example-dummy.m */; };
-		0810EBBEFEB6FF8C74CB363D68712BDE /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC5C2F9CEFDB105215B9C0D17CD538 /* String+Extensions.swift */; };
-		0ED1B19C091117555516F33014BE7EB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		10A0E65F6E65AB4EC065B165DA7ADA3C /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042850916019AAC39083DCA63B6141E4 /* Double+Extensions.swift */; };
-		15724A9A0E1B871E2C4E312B5055DAD1 /* GSPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 148AD4B7C950BFF7BC2ABECAC82EFA73 /* GSPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16D4ECCD83F74DD6249C18330B84C9B8 /* Pods-GSPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B45F5EDF86BADC9959254B006DFF6BEA /* Pods-GSPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		16FCBE24A8D6F87449FB75289B439A45 /* VideoLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E799015BA1F5B504B2DA844691B2B /* VideoLoadManager.swift */; };
-		19E3AE50E5D12F2DD9308B3C6DDD49D5 /* VideoDownloadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2804A1F35F35696170A0A6FADBA1719F /* VideoDownloadInfo.swift */; };
-		1AF611F7DE173742A1F7565AEC12A7BC /* VideoCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09099B685853F69CF0AB9CCA4089D286 /* VideoCacheHandler.swift */; };
-		1C9775CF44ED4FE20C2B14692AA94F77 /* VideoFullscreenTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461AAA35F5329583D2B42A8DE936C5B /* VideoFullscreenTransitioner.swift */; };
-		276FE5CA27CA87DE47D72F6589A7B2FB /* VideoDownloaderSessionDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51ACDE5AC0E4F8084E9700FF39E980 /* VideoDownloaderSessionDelegateHandler.swift */; };
-		305546B4819AB7F0914089ABE207223B /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0268C6AB88C9537A701E59403EF27E3 /* Float+Extensions.swift */; };
-		4B54AFC8D50A84452C1ACBA448D448D9 /* VideoCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122539524D4891A93F299F988A26B95E /* VideoCacheConfiguration.swift */; };
-		5C56149593A6BCAFFD13B2C1C7803E92 /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2C106EE0A42EE42AF3106F000485F /* AVPlayer+Extensions.swift */; };
-		61B251600028079FDB025F05BF2655EE /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6824D0F703292D0334DA5EB1AB7E5C5 /* AVAssetResourceLoadingRequest+Extensions.swift */; };
-		654C91499AEC022E8E86F0E661EA36EB /* VideoPreloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461890CDB75AB1C63FD737B3E17DB452 /* VideoPreloadManager.swift */; };
-		70115C02C9F21B0CF8308E94B6F21088 /* AVPlayerItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE17D504F4ABDC384AA0919524D6D5 /* AVPlayerItem+Extensions.swift */; };
-		7030629D39FEAEAACEDEAF296CB8FA73 /* VideoCacheAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF13D2774ADA07D7A41BD9010DAC74F /* VideoCacheAction.swift */; };
-		7D0C60FEDC20918E9124739D6FAF732F /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2530CDAB0D506F098F6653C3659F9F /* VideoPlayerView.swift */; };
-		8B4A65354A57575F36992DB29630807F /* VideoCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9725914E6B53E4734BE386B721B73112 /* VideoCacheManager.swift */; };
-		96BE5E8C685B33D071C122C0266A5294 /* VideoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96CBC876E4D8B9426962CBCAA0B0E2 /* VideoDownloader.swift */; };
-		9B7AED6629FDCDDFE5D8A39D56490D9F /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8A6199993E6D295B8B7100E79485D /* Int+Extensions.swift */; };
-		A116C683883FAD8CD979185ADB15B793 /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102EAF3A9FF03E38FA6911844CD3A6A3 /* VideoInfo.swift */; };
-		B5B8735CAF270205B34ACF6D532E8F8C /* VideoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B14F7F2CBF150847456414A578E33 /* VideoLoader.swift */; };
-		E2D88533B3BDBD727427502B5426C2F7 /* VideoFullscreenPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8AFF4592F2B2D9EC38724364A079C /* VideoFullscreenPlayerView.swift */; };
-		EBBBDAEA4918A1A0A5DCBEA00E271613 /* VideoRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB83CBEE58A82CECBE5E8F8DDE0541BB /* VideoRequestLoader.swift */; };
-		FA234608DE377B943CF692F90B71F476 /* VideoDownloaderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69EB99E0D7F26415C001B1FF066C786 /* VideoDownloaderHandler.swift */; };
-		FAE4758627184CE63BB75626B370798B /* GSPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5713B8A968594582916FB4387F1F0CB6 /* GSPlayer-dummy.m */; };
+		01102D6EE519C0AC01AEF3A773CB0B86 /* VideoCacheAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF13D2774ADA07D7A41BD9010DAC74F /* VideoCacheAction.swift */; };
+		0D4EB7C9A357EB779680BFB282D8CCC3 /* VideoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B14F7F2CBF150847456414A578E33 /* VideoLoader.swift */; };
+		18799210D93F89CC2A9A4EC23C6F4DE7 /* AVPlayer+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD2C106EE0A42EE42AF3106F000485F /* AVPlayer+Extensions.swift */; };
+		1C82B06C8559783A6EC45BD684BCFB16 /* GSPlayer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 148AD4B7C950BFF7BC2ABECAC82EFA73 /* GSPlayer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		205520825C43C2D718F6E8AFE353DAA4 /* VideoDownloaderHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69EB99E0D7F26415C001B1FF066C786 /* VideoDownloaderHandler.swift */; };
+		289FED8F5165D62CEE47145474C4C5B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		324B99DB0F00732B5D917AA3068A1B1B /* VideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102EAF3A9FF03E38FA6911844CD3A6A3 /* VideoInfo.swift */; };
+		416F15520867D6E800E60E466E501292 /* VideoPreloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461890CDB75AB1C63FD737B3E17DB452 /* VideoPreloadManager.swift */; };
+		56EB5676538ABC7B702C53B0AD6DAD5A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EC5C2F9CEFDB105215B9C0D17CD538 /* String+Extensions.swift */; };
+		5E6FB8FE669839D68AA47CA786F8A108 /* VideoCacheHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09099B685853F69CF0AB9CCA4089D286 /* VideoCacheHandler.swift */; };
+		6A86C13A4C9F119EF74019217E67DAAD /* GSPlayer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5713B8A968594582916FB4387F1F0CB6 /* GSPlayer-dummy.m */; };
+		7102ED2849445FC1FFBE54DDAE92B1A5 /* Double+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042850916019AAC39083DCA63B6141E4 /* Double+Extensions.swift */; };
+		72822D8E405770BB2C00950D799BF7CD /* VideoFullscreenTransitioner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3461AAA35F5329583D2B42A8DE936C5B /* VideoFullscreenTransitioner.swift */; };
+		7B35CBA606D7CB90919EB44BD8244CC8 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2530CDAB0D506F098F6653C3659F9F /* VideoPlayerView.swift */; };
+		870F12755CE568FED546EE745BE159A7 /* VideoDownloaderSessionDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F51ACDE5AC0E4F8084E9700FF39E980 /* VideoDownloaderSessionDelegateHandler.swift */; };
+		8C988ACFC9D6ABFFC7D3E44C3D7F326A /* VideoCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9725914E6B53E4734BE386B721B73112 /* VideoCacheManager.swift */; };
+		935D5CE257767C9D0E478263E1CEE15C /* VideoFullscreenPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8AFF4592F2B2D9EC38724364A079C /* VideoFullscreenPlayerView.swift */; };
+		936DA566637F30EBC00838B074464FD5 /* AVPlayerItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6BE17D504F4ABDC384AA0919524D6D5 /* AVPlayerItem+Extensions.swift */; };
+		A2D57E11CCE2C0E933F8DC42DBF70DDC /* VideoCacheConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122539524D4891A93F299F988A26B95E /* VideoCacheConfiguration.swift */; };
+		A3FEB7346077AC213B9B8BD4AAE13BDB /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A8A6199993E6D295B8B7100E79485D /* Int+Extensions.swift */; };
+		B5A425020086406E64ABD36D3B6573BD /* Pods-GSPlayer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6459994E6891E6806B17DE99F0D43AE2 /* Pods-GSPlayer_Example-dummy.m */; };
+		B61D7CBBB57E5B1B3FC3A4C593833451 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B6EE8B36256F6CF8D40E775F9F13FE27 /* VideoDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D96CBC876E4D8B9426962CBCAA0B0E2 /* VideoDownloader.swift */; };
+		B978BFDC68534FA75FFD68FB2C21989D /* VideoRequestLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB83CBEE58A82CECBE5E8F8DDE0541BB /* VideoRequestLoader.swift */; };
+		C5ACE50B9F90E9C032AA4B0CD1C8A6B9 /* Pods-GSPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B45F5EDF86BADC9959254B006DFF6BEA /* Pods-GSPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C931CEFC516D5B2249558028B0DE5D41 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6824D0F703292D0334DA5EB1AB7E5C5 /* AVAssetResourceLoadingRequest+Extensions.swift */; };
+		C9BC35F1C96C175949763B628E67C686 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0268C6AB88C9537A701E59403EF27E3 /* Float+Extensions.swift */; };
+		DC3C46402C2FE1BC00F10492 /* GSExpiration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C463F2C2FE1BC00F10492 /* GSExpiration.swift */; };
+		E129B1794280EF77BA7E19D8B8C4FFF2 /* VideoLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E799015BA1F5B504B2DA844691B2B /* VideoLoadManager.swift */; };
+		E8C67887663806FAD75C43F256212558 /* VideoDownloadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2804A1F35F35696170A0A6FADBA1719F /* VideoDownloadInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2CDB11ABF56EA556686A1C04ACE3327C /* PBXContainerItemProxy */ = {
+		4D66315CDF323C3E6A1A38D2A3A1448C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -52,7 +53,7 @@
 		042850916019AAC39083DCA63B6141E4 /* Double+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		09099B685853F69CF0AB9CCA4089D286 /* VideoCacheHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheHandler.swift; sourceTree = "<group>"; };
 		102EAF3A9FF03E38FA6911844CD3A6A3 /* VideoInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
-		10B97C591D98B9C99817DDC5B79F57D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		10B97C591D98B9C99817DDC5B79F57D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		122539524D4891A93F299F988A26B95E /* VideoCacheConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheConfiguration.swift; sourceTree = "<group>"; };
 		139A3CE0D874E089DB196D5DCCC59B4F /* GSPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSPlayer.release.xcconfig; sourceTree = "<group>"; };
 		148AD4B7C950BFF7BC2ABECAC82EFA73 /* GSPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSPlayer-umbrella.h"; sourceTree = "<group>"; };
@@ -69,18 +70,18 @@
 		58D8AFF4592F2B2D9EC38724364A079C /* VideoFullscreenPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoFullscreenPlayerView.swift; sourceTree = "<group>"; };
 		6155467E0890E3550B45CB65A5670EEA /* GSPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSPlayer-prefix.pch"; sourceTree = "<group>"; };
 		6459994E6891E6806B17DE99F0D43AE2 /* Pods-GSPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSPlayer_Example-dummy.m"; sourceTree = "<group>"; };
-		66F2CF5EEBF5F9531D5931E08B6C2A6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		66F2CF5EEBF5F9531D5931E08B6C2A6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		753C0A8025CEE49C47DAB69A8EB3C8D1 /* GSPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GSPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		753C0A8025CEE49C47DAB69A8EB3C8D1 /* GSPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GSPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75BF07BD21FB3076A2886D28AA171FF7 /* Pods-GSPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSPlayer_Example.modulemap"; sourceTree = "<group>"; };
 		7DC56C82B3D24EE35905207F16D02066 /* Pods-GSPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
-		7E90CF3C2C60FAF8E7A86B38FD0FAC27 /* Pods_GSPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GSPlayer_Example.framework; path = "Pods-GSPlayer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSPlayer.framework; path = GSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E90CF3C2C60FAF8E7A86B38FD0FAC27 /* Pods-GSPlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GSPlayer_Example"; path = Pods_GSPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GSPlayer; path = GSPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		819B14F7F2CBF150847456414A578E33 /* VideoLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoLoader.swift; sourceTree = "<group>"; };
 		85A056EB3C8DF369C4914832F41ED151 /* Pods-GSPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9725914E6B53E4734BE386B721B73112 /* VideoCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheManager.swift; sourceTree = "<group>"; };
 		9BD2C106EE0A42EE42AF3106F000485F /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1A6DE8B9A77BD738815501465EDCFE3 /* GSPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GSPlayer-Info.plist"; sourceTree = "<group>"; };
 		A5369CF830128AC98638A5D46E0C1609 /* Pods-GSPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B45F5EDF86BADC9959254B006DFF6BEA /* Pods-GSPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -94,23 +95,24 @@
 		D6824D0F703292D0334DA5EB1AB7E5C5 /* AVAssetResourceLoadingRequest+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVAssetResourceLoadingRequest+Extensions.swift"; sourceTree = "<group>"; };
 		D69EB99E0D7F26415C001B1FF066C786 /* VideoDownloaderHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoDownloaderHandler.swift; sourceTree = "<group>"; };
 		DA169296F093C7BD29B42DC6ADAF8BE0 /* Pods-GSPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DC3C463F2C2FE1BC00F10492 /* GSExpiration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSExpiration.swift; sourceTree = "<group>"; };
 		EEF13D2774ADA07D7A41BD9010DAC74F /* VideoCacheAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		790E0C85DE0A277EB402ACDAC1DA206E /* Frameworks */ = {
+		4DF077A6CB0F716F83430B7A9AC3E7CE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0ED1B19C091117555516F33014BE7EB6 /* Foundation.framework in Frameworks */,
+				B61D7CBBB57E5B1B3FC3A4C593833451 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEB394528549C5D51DEB05B9175022B8 /* Frameworks */ = {
+		694FD43F399942D5DEF82B359B6635EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0183426FE489285A4C9218191309AE43 /* Foundation.framework in Frameworks */,
+				289FED8F5165D62CEE47145474C4C5B0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,7 @@
 		0EBE0DB9FC88C03911A820D9F5CE1736 /* GSPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				DC3C463E2C2FE1B100F10492 /* Model */,
 				56FEB37A8BCC1847B6291EE57E496C20 /* Cache */,
 				667297AD6DC9D08C8ED060E019E4D38E /* Download */,
 				D9CFE094586BDF966132F1164C83E800 /* Extension */,
@@ -165,6 +168,15 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		583195276136E1DB997CF16FFC6E1467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer */,
+				7E90CF3C2C60FAF8E7A86B38FD0FAC27 /* Pods-GSPlayer_Example */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		667297AD6DC9D08C8ED060E019E4D38E /* Download */ = {
@@ -235,7 +247,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				AD7B4E4FDCC6839AD8C9C1D298E25968 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				E0F32415AD89FF442053A6EA418E6B59 /* Products */,
+				583195276136E1DB997CF16FFC6E1467 /* Products */,
 				A917F4CF12B7F9F21EBF89513D7C35DB /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -280,31 +292,30 @@
 			path = GSPlayer/Classes/Extension;
 			sourceTree = "<group>";
 		};
-		E0F32415AD89FF442053A6EA418E6B59 /* Products */ = {
+		DC3C463E2C2FE1B100F10492 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer.framework */,
-				7E90CF3C2C60FAF8E7A86B38FD0FAC27 /* Pods_GSPlayer_Example.framework */,
+				DC3C463F2C2FE1BC00F10492 /* GSExpiration.swift */,
 			);
-			name = Products;
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7BC108FD59A18845D04F3E6BA9B99F09 /* Headers */ = {
+		82B261E43FC76502F951D387648946C5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15724A9A0E1B871E2C4E312B5055DAD1 /* GSPlayer-umbrella.h in Headers */,
+				1C82B06C8559783A6EC45BD684BCFB16 /* GSPlayer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDDEC74F5AD903C2E06BD1694E3D5AC1 /* Headers */ = {
+		B27C3BBF93FB061DD2D350CE68ECCBC5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16D4ECCD83F74DD6249C18330B84C9B8 /* Pods-GSPlayer_Example-umbrella.h in Headers */,
+				C5ACE50B9F90E9C032AA4B0CD1C8A6B9 /* Pods-GSPlayer_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,12 +324,12 @@
 /* Begin PBXNativeTarget section */
 		50D5373B27D8A6802F70DC3E85BF8716 /* GSPlayer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2EE0309C5707BDEAE2381B795CB5C9A /* Build configuration list for PBXNativeTarget "GSPlayer" */;
+			buildConfigurationList = A6A2CAAAAC9680F095821DF1E975A091 /* Build configuration list for PBXNativeTarget "GSPlayer" */;
 			buildPhases = (
-				7BC108FD59A18845D04F3E6BA9B99F09 /* Headers */,
-				7D5144808A12591D5B355880E662CD26 /* Sources */,
-				790E0C85DE0A277EB402ACDAC1DA206E /* Frameworks */,
-				649A182410F41525A66989DC1B264C85 /* Resources */,
+				82B261E43FC76502F951D387648946C5 /* Headers */,
+				9A23307706D49E1CB3485CAB00E0AAF2 /* Sources */,
+				694FD43F399942D5DEF82B359B6635EF /* Frameworks */,
+				444EE82871753FEB9CC2E8BF82810CC2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -326,26 +337,26 @@
 			);
 			name = GSPlayer;
 			productName = GSPlayer;
-			productReference = 809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer.framework */;
+			productReference = 809B2C3EED38CDC368DB0F367C1C5FE5 /* GSPlayer */;
 			productType = "com.apple.product-type.framework";
 		};
 		FF8880B20DDAA81F828F4C9C5567712D /* Pods-GSPlayer_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B327B5F0895D70C8B3111212B516912A /* Build configuration list for PBXNativeTarget "Pods-GSPlayer_Example" */;
+			buildConfigurationList = BE8F0C29BB870A07EFA3BEB59B02776B /* Build configuration list for PBXNativeTarget "Pods-GSPlayer_Example" */;
 			buildPhases = (
-				FDDEC74F5AD903C2E06BD1694E3D5AC1 /* Headers */,
-				C53ED2FBB8AD1E9D48A5AFAFCC6074E1 /* Sources */,
-				AEB394528549C5D51DEB05B9175022B8 /* Frameworks */,
-				26AC690600D8BB31F43F056EEFB20FDC /* Resources */,
+				B27C3BBF93FB061DD2D350CE68ECCBC5 /* Headers */,
+				9648DEB9823F0F85AA579C29EA25902D /* Sources */,
+				4DF077A6CB0F716F83430B7A9AC3E7CE /* Frameworks */,
+				EABBD68C4E2D50D4CFDF0735E0B61E08 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A2AA10AE783C27B355690241EDAA9681 /* PBXTargetDependency */,
+				0F9A86D18D6BA86979BD0DFC3F47EE93 /* PBXTargetDependency */,
 			);
 			name = "Pods-GSPlayer_Example";
-			productName = "Pods-GSPlayer_Example";
-			productReference = 7E90CF3C2C60FAF8E7A86B38FD0FAC27 /* Pods_GSPlayer_Example.framework */;
+			productName = Pods_GSPlayer_Example;
+			productReference = 7E90CF3C2C60FAF8E7A86B38FD0FAC27 /* Pods-GSPlayer_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -354,19 +365,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = E0F32415AD89FF442053A6EA418E6B59 /* Products */;
+			productRefGroup = 583195276136E1DB997CF16FFC6E1467 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -377,14 +388,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		26AC690600D8BB31F43F056EEFB20FDC /* Resources */ = {
+		444EE82871753FEB9CC2E8BF82810CC2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		649A182410F41525A66989DC1B264C85 /* Resources */ = {
+		EABBD68C4E2D50D4CFDF0735E0B61E08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -394,61 +405,63 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7D5144808A12591D5B355880E662CD26 /* Sources */ = {
+		9648DEB9823F0F85AA579C29EA25902D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B251600028079FDB025F05BF2655EE /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */,
-				5C56149593A6BCAFFD13B2C1C7803E92 /* AVPlayer+Extensions.swift in Sources */,
-				70115C02C9F21B0CF8308E94B6F21088 /* AVPlayerItem+Extensions.swift in Sources */,
-				10A0E65F6E65AB4EC065B165DA7ADA3C /* Double+Extensions.swift in Sources */,
-				305546B4819AB7F0914089ABE207223B /* Float+Extensions.swift in Sources */,
-				FAE4758627184CE63BB75626B370798B /* GSPlayer-dummy.m in Sources */,
-				9B7AED6629FDCDDFE5D8A39D56490D9F /* Int+Extensions.swift in Sources */,
-				0810EBBEFEB6FF8C74CB363D68712BDE /* String+Extensions.swift in Sources */,
-				7030629D39FEAEAACEDEAF296CB8FA73 /* VideoCacheAction.swift in Sources */,
-				4B54AFC8D50A84452C1ACBA448D448D9 /* VideoCacheConfiguration.swift in Sources */,
-				1AF611F7DE173742A1F7565AEC12A7BC /* VideoCacheHandler.swift in Sources */,
-				8B4A65354A57575F36992DB29630807F /* VideoCacheManager.swift in Sources */,
-				96BE5E8C685B33D071C122C0266A5294 /* VideoDownloader.swift in Sources */,
-				FA234608DE377B943CF692F90B71F476 /* VideoDownloaderHandler.swift in Sources */,
-				276FE5CA27CA87DE47D72F6589A7B2FB /* VideoDownloaderSessionDelegateHandler.swift in Sources */,
-				19E3AE50E5D12F2DD9308B3C6DDD49D5 /* VideoDownloadInfo.swift in Sources */,
-				E2D88533B3BDBD727427502B5426C2F7 /* VideoFullscreenPlayerView.swift in Sources */,
-				1C9775CF44ED4FE20C2B14692AA94F77 /* VideoFullscreenTransitioner.swift in Sources */,
-				A116C683883FAD8CD979185ADB15B793 /* VideoInfo.swift in Sources */,
-				B5B8735CAF270205B34ACF6D532E8F8C /* VideoLoader.swift in Sources */,
-				16FCBE24A8D6F87449FB75289B439A45 /* VideoLoadManager.swift in Sources */,
-				7D0C60FEDC20918E9124739D6FAF732F /* VideoPlayerView.swift in Sources */,
-				654C91499AEC022E8E86F0E661EA36EB /* VideoPreloadManager.swift in Sources */,
-				EBBBDAEA4918A1A0A5DCBEA00E271613 /* VideoRequestLoader.swift in Sources */,
+				B5A425020086406E64ABD36D3B6573BD /* Pods-GSPlayer_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C53ED2FBB8AD1E9D48A5AFAFCC6074E1 /* Sources */ = {
+		9A23307706D49E1CB3485CAB00E0AAF2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0286EF34D129B67B46AB389C25812C46 /* Pods-GSPlayer_Example-dummy.m in Sources */,
+				C931CEFC516D5B2249558028B0DE5D41 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */,
+				18799210D93F89CC2A9A4EC23C6F4DE7 /* AVPlayer+Extensions.swift in Sources */,
+				936DA566637F30EBC00838B074464FD5 /* AVPlayerItem+Extensions.swift in Sources */,
+				7102ED2849445FC1FFBE54DDAE92B1A5 /* Double+Extensions.swift in Sources */,
+				C9BC35F1C96C175949763B628E67C686 /* Float+Extensions.swift in Sources */,
+				DC3C46402C2FE1BC00F10492 /* GSExpiration.swift in Sources */,
+				6A86C13A4C9F119EF74019217E67DAAD /* GSPlayer-dummy.m in Sources */,
+				A3FEB7346077AC213B9B8BD4AAE13BDB /* Int+Extensions.swift in Sources */,
+				56EB5676538ABC7B702C53B0AD6DAD5A /* String+Extensions.swift in Sources */,
+				01102D6EE519C0AC01AEF3A773CB0B86 /* VideoCacheAction.swift in Sources */,
+				A2D57E11CCE2C0E933F8DC42DBF70DDC /* VideoCacheConfiguration.swift in Sources */,
+				5E6FB8FE669839D68AA47CA786F8A108 /* VideoCacheHandler.swift in Sources */,
+				8C988ACFC9D6ABFFC7D3E44C3D7F326A /* VideoCacheManager.swift in Sources */,
+				B6EE8B36256F6CF8D40E775F9F13FE27 /* VideoDownloader.swift in Sources */,
+				205520825C43C2D718F6E8AFE353DAA4 /* VideoDownloaderHandler.swift in Sources */,
+				870F12755CE568FED546EE745BE159A7 /* VideoDownloaderSessionDelegateHandler.swift in Sources */,
+				E8C67887663806FAD75C43F256212558 /* VideoDownloadInfo.swift in Sources */,
+				935D5CE257767C9D0E478263E1CEE15C /* VideoFullscreenPlayerView.swift in Sources */,
+				72822D8E405770BB2C00950D799BF7CD /* VideoFullscreenTransitioner.swift in Sources */,
+				324B99DB0F00732B5D917AA3068A1B1B /* VideoInfo.swift in Sources */,
+				0D4EB7C9A357EB779680BFB282D8CCC3 /* VideoLoader.swift in Sources */,
+				E129B1794280EF77BA7E19D8B8C4FFF2 /* VideoLoadManager.swift in Sources */,
+				7B35CBA606D7CB90919EB44BD8244CC8 /* VideoPlayerView.swift in Sources */,
+				416F15520867D6E800E60E466E501292 /* VideoPreloadManager.swift in Sources */,
+				B978BFDC68534FA75FFD68FB2C21989D /* VideoRequestLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A2AA10AE783C27B355690241EDAA9681 /* PBXTargetDependency */ = {
+		0F9A86D18D6BA86979BD0DFC3F47EE93 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GSPlayer;
 			target = 50D5373B27D8A6802F70DC3E85BF8716 /* GSPlayer */;
-			targetProxy = 2CDB11ABF56EA556686A1C04ACE3327C /* PBXContainerItemProxy */;
+			targetProxy = 4D66315CDF323C3E6A1A38D2A3A1448C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3565211DFB604CD6FE59132743B608BE /* Debug */ = {
+		15E866FB61D88634EAA5467F581FCCBE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C18AA592E1945F5CD7CCAA5A73911957 /* GSPlayer.debug.xcconfig */;
+			baseConfigurationReference = 85A056EB3C8DF369C4914832F41ED151 /* Pods-GSPlayer_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -458,55 +471,58 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GSPlayer/GSPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GSPlayer/GSPlayer-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GSPlayer/GSPlayer.modulemap";
-				PRODUCT_MODULE_NAME = GSPlayer;
-				PRODUCT_NAME = GSPlayer;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		38E14326EBA50916942A0BAB30BA25D5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 139A3CE0D874E089DB196D5DCCC59B4F /* GSPlayer.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GSPlayer/GSPlayer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GSPlayer/GSPlayer-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GSPlayer/GSPlayer.modulemap";
-				PRODUCT_MODULE_NAME = GSPlayer;
-				PRODUCT_NAME = GSPlayer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		1E65A273F80BC1E0A22A4848FC9F73D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5369CF830128AC98638A5D46E0C1609 /* Pods-GSPlayer_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -563,18 +579,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		86BDCA2648F14C2E214197F458EBD05E /* Release */ = {
+		AA6A87807E32501F8DB078E621B5B6C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85A056EB3C8DF369C4914832F41ED151 /* Pods-GSPlayer_Example.release.xcconfig */;
+			baseConfigurationReference = C18AA592E1945F5CD7CCAA5A73911957 /* GSPlayer.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -584,25 +598,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GSPlayer/GSPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSPlayer/GSPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GSPlayer/GSPlayer.modulemap";
+				PRODUCT_MODULE_NAME = GSPlayer;
+				PRODUCT_NAME = GSPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -670,11 +682,10 @@
 			};
 			name = Debug;
 		};
-		DB8211A67FDF1DD1E1C70CA5A79C0299 /* Debug */ = {
+		F78E39C9985F6073D1DF3DB581C1E98F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5369CF830128AC98638A5D46E0C1609 /* Pods-GSPlayer_Example.debug.xcconfig */;
+			baseConfigurationReference = 139A3CE0D874E089DB196D5DCCC59B4F /* GSPlayer.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -684,24 +695,24 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/GSPlayer/GSPlayer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GSPlayer/GSPlayer-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GSPlayer_Example/Pods-GSPlayer_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/GSPlayer/GSPlayer.modulemap";
+				PRODUCT_MODULE_NAME = GSPlayer;
+				PRODUCT_NAME = GSPlayer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -715,20 +726,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B327B5F0895D70C8B3111212B516912A /* Build configuration list for PBXNativeTarget "Pods-GSPlayer_Example" */ = {
+		A6A2CAAAAC9680F095821DF1E975A091 /* Build configuration list for PBXNativeTarget "GSPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB8211A67FDF1DD1E1C70CA5A79C0299 /* Debug */,
-				86BDCA2648F14C2E214197F458EBD05E /* Release */,
+				AA6A87807E32501F8DB078E621B5B6C8 /* Debug */,
+				F78E39C9985F6073D1DF3DB581C1E98F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2EE0309C5707BDEAE2381B795CB5C9A /* Build configuration list for PBXNativeTarget "GSPlayer" */ = {
+		BE8F0C29BB870A07EFA3BEB59B02776B /* Build configuration list for PBXNativeTarget "Pods-GSPlayer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3565211DFB604CD6FE59132743B608BE /* Debug */,
-				38E14326EBA50916942A0BAB30BA25D5 /* Release */,
+				1E65A273F80BC1E0A22A4848FC9F73D2 /* Debug */,
+				15E866FB61D88634EAA5467F581FCCBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

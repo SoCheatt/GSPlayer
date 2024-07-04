@@ -17,6 +17,8 @@ public class VideoCacheHandler {
     private let readFileHandle: FileHandle
     private let writeFileHandle: FileHandle
     
+    private var currentFilePath: String
+    
     public init(url: URL) throws {
         let fileManager = FileManager.default
         let filePath = VideoCacheManager.cachedFilePath(for: url)
@@ -32,12 +34,16 @@ public class VideoCacheHandler {
         }
         
         if !fileManager.fileExists(atPath: filePath) {
-            fileManager.createFile(atPath: filePath, contents: nil, attributes: nil)
+            if let date = VideoCacheManager.getExpirationDate() {
+                let attributes = [FileAttributeKey.modificationDate: date]
+                fileManager.createFile(atPath: filePath, contents: nil, attributes: attributes)
+            }
         }
         
         configuration = try VideoCacheConfiguration.configuration(for: filePath)
         readFileHandle = try FileHandle(forReadingFrom: fileURL)
         writeFileHandle = try FileHandle(forWritingTo: fileURL)
+        currentFilePath = filePath
     }
     
     deinit {
@@ -141,10 +147,15 @@ public class VideoCacheHandler {
         } else {
             // Fallback on earlier versions
         }
-        writeFileHandle.seek(toFileOffset: UInt64(range.location))
-        writeFileHandle.write(data)
-        configuration.add(fragment: range)
+        
+        accessFileWithoutChangeModifiedDate {
+            writeFileHandle.seek(toFileOffset: UInt64(range.location))
+            writeFileHandle.write(data)
+            configuration.add(fragment: range)
+        }
+        
         objc_sync_exit(writeFileHandle)
+        
         return true
     }
     
@@ -158,17 +169,49 @@ public class VideoCacheHandler {
     
     func set(info: VideoInfo) {
         objc_sync_enter(writeFileHandle)
-        configuration.info = info
-        writeFileHandle.truncateFile(atOffset: UInt64(info.contentLength))
-        writeFileHandle.synchronizeFile()
+        
+        accessFileWithoutChangeModifiedDate {
+            configuration.info = info
+            writeFileHandle.truncateFile(atOffset: UInt64(info.contentLength))
+            writeFileHandle.synchronizeFile()
+        }
+        
         objc_sync_exit(writeFileHandle)
     }
     
     func save() {
         objc_sync_enter(writeFileHandle)
-        writeFileHandle.synchronizeFile()
-        configuration.save()
+        
+        accessFileWithoutChangeModifiedDate {
+            writeFileHandle.synchronizeFile()
+            configuration.save()
+        }
+        
         objc_sync_exit(writeFileHandle)
+    }
+    
+    private func accessFileWithoutChangeModifiedDate(_ codeBlock: (() -> Void))  {
+        let lastModifiedDate = fileModificationDate(path: currentFilePath)
+        codeBlock()
+        setModificationDate(date: lastModifiedDate)
+    }
+    
+    private func fileModificationDate(path: String) -> Date? {
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            let attr = try FileManager.default.attributesOfItem(atPath: url.path)
+            return attr[FileAttributeKey.modificationDate] as? Date
+        } catch {
+            return nil
+        }
+    }
+    
+    private func setModificationDate(date: Date?) {
+        guard let date else { return }
+        
+        let attributes = [FileAttributeKey.modificationDate: date]
+        try? FileManager.default.setAttributes(attributes, ofItemAtPath: currentFilePath)
     }
     
 }

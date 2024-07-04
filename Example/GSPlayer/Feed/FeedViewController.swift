@@ -30,6 +30,11 @@ class FeedViewController: UIViewController {
         super.viewDidAppear(animated)
         check()
     }
+    
+    deinit {
+        print("Deinit vc")
+    }
+    
 }
 
 extension FeedViewController: UITableViewDataSource {
