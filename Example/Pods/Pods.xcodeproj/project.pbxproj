@@ -34,7 +34,6 @@
 		C5ACE50B9F90E9C032AA4B0CD1C8A6B9 /* Pods-GSPlayer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B45F5EDF86BADC9959254B006DFF6BEA /* Pods-GSPlayer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C931CEFC516D5B2249558028B0DE5D41 /* AVAssetResourceLoadingRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6824D0F703292D0334DA5EB1AB7E5C5 /* AVAssetResourceLoadingRequest+Extensions.swift */; };
 		C9BC35F1C96C175949763B628E67C686 /* Float+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0268C6AB88C9537A701E59403EF27E3 /* Float+Extensions.swift */; };
-		DC3C46402C2FE1BC00F10492 /* GSExpiration.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC3C463F2C2FE1BC00F10492 /* GSExpiration.swift */; };
 		E129B1794280EF77BA7E19D8B8C4FFF2 /* VideoLoadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193E799015BA1F5B504B2DA844691B2B /* VideoLoadManager.swift */; };
 		E8C67887663806FAD75C43F256212558 /* VideoDownloadInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2804A1F35F35696170A0A6FADBA1719F /* VideoDownloadInfo.swift */; };
 /* End PBXBuildFile section */
@@ -53,7 +52,7 @@
 		042850916019AAC39083DCA63B6141E4 /* Double+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Double+Extensions.swift"; sourceTree = "<group>"; };
 		09099B685853F69CF0AB9CCA4089D286 /* VideoCacheHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheHandler.swift; sourceTree = "<group>"; };
 		102EAF3A9FF03E38FA6911844CD3A6A3 /* VideoInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoInfo.swift; sourceTree = "<group>"; };
-		10B97C591D98B9C99817DDC5B79F57D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		10B97C591D98B9C99817DDC5B79F57D6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		122539524D4891A93F299F988A26B95E /* VideoCacheConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheConfiguration.swift; sourceTree = "<group>"; };
 		139A3CE0D874E089DB196D5DCCC59B4F /* GSPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GSPlayer.release.xcconfig; sourceTree = "<group>"; };
 		148AD4B7C950BFF7BC2ABECAC82EFA73 /* GSPlayer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSPlayer-umbrella.h"; sourceTree = "<group>"; };
@@ -70,9 +69,9 @@
 		58D8AFF4592F2B2D9EC38724364A079C /* VideoFullscreenPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoFullscreenPlayerView.swift; sourceTree = "<group>"; };
 		6155467E0890E3550B45CB65A5670EEA /* GSPlayer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GSPlayer-prefix.pch"; sourceTree = "<group>"; };
 		6459994E6891E6806B17DE99F0D43AE2 /* Pods-GSPlayer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GSPlayer_Example-dummy.m"; sourceTree = "<group>"; };
-		66F2CF5EEBF5F9531D5931E08B6C2A6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		66F2CF5EEBF5F9531D5931E08B6C2A6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		753C0A8025CEE49C47DAB69A8EB3C8D1 /* GSPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GSPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		753C0A8025CEE49C47DAB69A8EB3C8D1 /* GSPlayer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GSPlayer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		75BF07BD21FB3076A2886D28AA171FF7 /* Pods-GSPlayer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GSPlayer_Example.modulemap"; sourceTree = "<group>"; };
 		7DC56C82B3D24EE35905207F16D02066 /* Pods-GSPlayer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GSPlayer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7E90CF3C2C60FAF8E7A86B38FD0FAC27 /* Pods-GSPlayer_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-GSPlayer_Example"; path = Pods_GSPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,7 +80,7 @@
 		85A056EB3C8DF369C4914832F41ED151 /* Pods-GSPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9725914E6B53E4734BE386B721B73112 /* VideoCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheManager.swift; sourceTree = "<group>"; };
 		9BD2C106EE0A42EE42AF3106F000485F /* AVPlayer+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVPlayer+Extensions.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1A6DE8B9A77BD738815501465EDCFE3 /* GSPlayer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GSPlayer-Info.plist"; sourceTree = "<group>"; };
 		A5369CF830128AC98638A5D46E0C1609 /* Pods-GSPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GSPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B45F5EDF86BADC9959254B006DFF6BEA /* Pods-GSPlayer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GSPlayer_Example-umbrella.h"; sourceTree = "<group>"; };
@@ -95,7 +94,6 @@
 		D6824D0F703292D0334DA5EB1AB7E5C5 /* AVAssetResourceLoadingRequest+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AVAssetResourceLoadingRequest+Extensions.swift"; sourceTree = "<group>"; };
 		D69EB99E0D7F26415C001B1FF066C786 /* VideoDownloaderHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoDownloaderHandler.swift; sourceTree = "<group>"; };
 		DA169296F093C7BD29B42DC6ADAF8BE0 /* Pods-GSPlayer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GSPlayer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		DC3C463F2C2FE1BC00F10492 /* GSExpiration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GSExpiration.swift; sourceTree = "<group>"; };
 		EEF13D2774ADA07D7A41BD9010DAC74F /* VideoCacheAction.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoCacheAction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,7 +120,6 @@
 		0EBE0DB9FC88C03911A820D9F5CE1736 /* GSPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				DC3C463E2C2FE1B100F10492 /* Model */,
 				56FEB37A8BCC1847B6291EE57E496C20 /* Cache */,
 				667297AD6DC9D08C8ED060E019E4D38E /* Download */,
 				D9CFE094586BDF966132F1164C83E800 /* Extension */,
@@ -292,14 +289,6 @@
 			path = GSPlayer/Classes/Extension;
 			sourceTree = "<group>";
 		};
-		DC3C463E2C2FE1B100F10492 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				DC3C463F2C2FE1BC00F10492 /* GSExpiration.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -422,7 +411,6 @@
 				936DA566637F30EBC00838B074464FD5 /* AVPlayerItem+Extensions.swift in Sources */,
 				7102ED2849445FC1FFBE54DDAE92B1A5 /* Double+Extensions.swift in Sources */,
 				C9BC35F1C96C175949763B628E67C686 /* Float+Extensions.swift in Sources */,
-				DC3C46402C2FE1BC00F10492 /* GSExpiration.swift in Sources */,
 				6A86C13A4C9F119EF74019217E67DAAD /* GSPlayer-dummy.m in Sources */,
 				A3FEB7346077AC213B9B8BD4AAE13BDB /* Int+Extensions.swift in Sources */,
 				56EB5676538ABC7B702C53B0AD6DAD5A /* String+Extensions.swift in Sources */,
@@ -579,7 +567,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
